@@ -12,6 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     audio_hal.period_multiplier=2 \
     debug.mediatek.disp_decompress=1 \
     debug.mediatek.game_pq_enable=1 \
+    debug.renderengine.backend=skiaglthreaded \
     debug.mtk_tflite.target_nnapi=29 \
     vendor.display.idle_time=0 \
     vendor.display.idle_time_inactive=0 \
