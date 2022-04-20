@@ -153,6 +153,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
+# Iorapd
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.iorapd.enable=false
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
