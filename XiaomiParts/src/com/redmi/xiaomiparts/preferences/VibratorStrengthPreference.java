@@ -34,7 +34,7 @@ public class VibratorStrengthPreference extends CustomSeekBarPreference {
     // from thunderquake engine v1.1
     private static int mMinVal = 0;
     private static int mMaxVal = 9;
-    private static int mDefVal = 9;
+    private static int mDefVal = 1;
     private Vibrator mVibrator;
 
     private static final String FILE_LEVEL = "/sys/kernel/thunderquake_engine/level";

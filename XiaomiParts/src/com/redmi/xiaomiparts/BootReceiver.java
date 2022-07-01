@@ -36,9 +36,6 @@ public class BootReceiver extends BroadcastReceiver {
 
         // Vibrator
         VibratorStrengthPreference.restore(context);
-        
-        // Dirac
-        context.startService(new Intent(context, DiracService.class));
 
         // Ambient
         context.startService(new Intent(context, SensorsDozeService.class));
