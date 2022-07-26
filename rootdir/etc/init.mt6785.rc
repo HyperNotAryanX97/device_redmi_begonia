@@ -896,6 +896,11 @@ on property:sys.boot_completed=1
     write /sys/block/dm-4/queue/read_ahead_kb 512
     write /sys/block/dm-5/queue/read_ahead_kb 512
 
+#enable thundercharge
+on property:sys.boot_completed=1
+
+    write /sys/kernel/thundercharge_control/enabled 1
+
 # start EAS+
 on property:sys.boot_completed=1
 
